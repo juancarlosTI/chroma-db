@@ -1,0 +1,321 @@
+[33mWARNING[0m:  [26-02-2025 15:42:29] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-02-2025 15:42:30] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component System
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component Posthog
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 15:42:30] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-02-2025 15:42:30] Started server process [[36m13920[0m]
+[32mINFO[0m:     [26-02-2025 15:42:30] Waiting for application startup.
+[32mINFO[0m:     [26-02-2025 15:42:30] Application startup complete.
+[32mINFO[0m:     [26-02-2025 15:42:30] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-02-2025 15:42:52] ::1:61856 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 15:42:52] ::1:61857 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 15:42:52] ::1:61856 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:24:55] ::1:63015 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:24:55] ::1:63016 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:24:55] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:24:55] ::1:63015 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:25:51] ::1:63030 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:25:51] ::1:63031 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:25:51] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:25:51] ::1:63030 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:26:54] ::1:63050 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:26:54] ::1:63051 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:26:54] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:26:54] ::1:63050 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:26:55] ::1:63051 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:27:19] ::1:63050 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:27:19] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-02-2025 17:27:19] ::1:63058 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:27:50] Shutting down
+[32mINFO[0m:     [26-02-2025 17:27:50] Waiting for application shutdown.
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component System
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:27:50] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [26-02-2025 17:27:50] Application shutdown complete.
+[32mINFO[0m:     [26-02-2025 17:27:50] Finished server process [[36m13920[0m]
+[33mWARNING[0m:  [26-02-2025 17:27:57] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-02-2025 17:27:58] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component System
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:27:58] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-02-2025 17:27:58] Started server process [[36m13040[0m]
+[32mINFO[0m:     [26-02-2025 17:27:58] Waiting for application startup.
+[32mINFO[0m:     [26-02-2025 17:27:58] Application startup complete.
+[32mINFO[0m:     [26-02-2025 17:27:58] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-02-2025 17:29:06] ::1:63120 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:29:06] ::1:63121 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:29:06] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:29:06] ::1:63120 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:29:08] ::1:63121 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:29:25] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-02-2025 17:29:25] ::1:63120 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:29:56] ::1:63194 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:29:56] ::1:63195 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:29:56] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:29:56] ::1:63194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:29:57] ::1:63195 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:30:10] ::1:63194 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:30:39] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:30:39] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:30:39] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:30:39] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:30:39] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:30:39] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:30:39] ::1:63275 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:30:48] ::1:63277 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:30:48] ::1:63278 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:30:48] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:30:48] ::1:63277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:30:51] ::1:63278 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:30:54] ::1:63277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:30:57] ::1:63278 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:22] ::1:63308 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:22] ::1:63309 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:31:22] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:31:22] ::1:63308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:25] ::1:63309 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:27] ::1:63308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:31] ::1:63309 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:31:31] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:31] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:31] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:31:31] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:31] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:31] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:31:31] ::1:63312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:31:34] ::1:63308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:34] ::1:63309 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:31:36] ::1:63308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:31:36] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:36] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:36] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:31:36] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:36] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:36] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:31:36] ::1:63312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:31:39] ::1:63309 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 1
+[32mINFO[0m:     [26-02-2025 17:31:43] ::1:63308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:31:43] ::1:63312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:31:43] ::1:63360 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:31:43] Add of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:31:43] ::1:63359 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:31:46] ::1:63309 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/79291f9d-445b-45a9-aebf-29c8b0019125/get HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:37:38] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-02-2025 17:37:38] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-02-2025 17:37:38] Starting component System
+[36mDEBUG[0m:    [26-02-2025 17:37:38] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-02-2025 17:37:38] Starting component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-02-2025 17:37:39] Started server process [[36m7668[0m]
+[32mINFO[0m:     [26-02-2025 17:37:39] Waiting for application startup.
+[32mINFO[0m:     [26-02-2025 17:37:39] Application startup complete.
+[31mERROR[0m:    [26-02-2025 17:37:39] [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+[32mINFO[0m:     [26-02-2025 17:37:39] Waiting for application shutdown.
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component System
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:37:39] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [26-02-2025 17:37:39] Application shutdown complete.
+[32mINFO[0m:     [26-02-2025 17:39:08] Shutting down
+[32mINFO[0m:     [26-02-2025 17:39:08] Waiting for application shutdown.
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component System
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:39:08] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [26-02-2025 17:39:08] Application shutdown complete.
+[32mINFO[0m:     [26-02-2025 17:39:08] Finished server process [[36m13040[0m]
+[33mWARNING[0m:  [26-02-2025 17:39:30] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-02-2025 17:39:30] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component System
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component Posthog
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 17:39:30] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-02-2025 17:39:30] Started server process [[36m10000[0m]
+[32mINFO[0m:     [26-02-2025 17:39:30] Waiting for application startup.
+[32mINFO[0m:     [26-02-2025 17:39:30] Application startup complete.
+[32mINFO[0m:     [26-02-2025 17:39:30] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-02-2025 17:39:41] ::1:63532 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:39:41] ::1:63533 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:39:41] ::1:63532 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:39:43] ::1:63533 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:39:45] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-02-2025 17:39:45] ::1:63532 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:40:49] ::1:63545 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:41:20] ::1:63554 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:41:20] ::1:63555 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:41:20] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:41:20] ::1:63554 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:41:22] ::1:63555 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:44:25] ::1:63594 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:44:25] ::1:63595 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:44:25] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:44:25] ::1:63594 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:44:28] ::1:63595 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:44:31] ::1:63594 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:45:03] ::1:63607 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:45:03] ::1:63608 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:45:03] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:45:03] ::1:63607 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:45:10] ::1:63608 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:45:22] ::1:63607 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:45:22] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:45:22] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:45:22] Add of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:45:22] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:45:22] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:45:22] Insert of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:45:22] ::1:63612 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:49:05] ::1:63669 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:05] ::1:63670 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:05] ::1:63669 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 400
+[32mINFO[0m:     [26-02-2025 17:49:18] ::1:63672 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:18] ::1:63673 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:49:18] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:49:18] ::1:63672 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:19] ::1:63673 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:49:33] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:49:33] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:49:33] Add of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:49:33] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:49:33] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:49:33] Insert of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:49:33] ::1:63672 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:49:35] ::1:63673 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:42] ::1:63672 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:49:44] ::1:63673 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:50:04] ::1:63683 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:50:04] ::1:63684 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:50:04] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:50:04] ::1:63683 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:50:05] ::1:63684 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:51:42] ::1:63719 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:51:42] ::1:63720 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:51:42] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:51:42] ::1:63719 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:51:44] ::1:63720 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:51:47] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:51:47] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:51:47] Add of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:51:47] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:51:47] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:51:47] Insert of existing embedding ID: 3
+[32mINFO[0m:     [26-02-2025 17:51:47] ::1:63719 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:51:49] ::1:63720 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:52:53] ::1:63740 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:52:53] ::1:63741 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:52:53] ::1:63740 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 400
+[32mINFO[0m:     [26-02-2025 17:53:00] ::1:63743 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:53:00] ::1:63744 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:53:00] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:53:00] ::1:63743 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:53:04] ::1:63744 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[33mWARNING[0m:  [26-02-2025 17:53:07] Add of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:53:07] Add of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:53:07] Add of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:53:07] Add of existing embedding ID: 4
+[33mWARNING[0m:  [26-02-2025 17:53:07] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-02-2025 17:53:07] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-02-2025 17:53:07] Insert of existing embedding ID: 3
+[33mWARNING[0m:  [26-02-2025 17:53:07] Insert of existing embedding ID: 4
+[32mINFO[0m:     [26-02-2025 17:53:07] ::1:63743 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/add HTTP/1.1" 201
+[32mINFO[0m:     [26-02-2025 17:53:09] ::1:63744 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:56:23] ::1:63795 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:56:23] ::1:63796 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:56:23] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:56:23] ::1:63795 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:56:25] ::1:63796 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:58:59] ::1:63846 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:58:59] ::1:63847 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 17:58:59] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 17:58:59] ::1:63846 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 17:59:04] ::1:63847 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:00:23] ::1:63864 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:00:23] ::1:63865 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 18:00:23] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 18:00:23] ::1:63864 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:00:26] ::1:63865 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:00:38] ::1:63864 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/get HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:01:03] ::1:63878 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:01:03] ::1:63879 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-02-2025 18:01:03] Collection jadeu-db already exists, returning existing collection.
+[32mINFO[0m:     [26-02-2025 18:01:03] ::1:63878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:01:05] ::1:63879 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0cedcf29-3a38-4424-afe5-7cff25b9ef0f/query HTTP/1.1" 200
+[32mINFO[0m:     [26-02-2025 18:02:44] Shutting down
+[32mINFO[0m:     [26-02-2025 18:02:44] Waiting for application shutdown.
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component System
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component SegmentAPI
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component LocalExecutor
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component Posthog
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component SqliteDB
+[36mDEBUG[0m:    [26-02-2025 18:02:44] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [26-02-2025 18:02:44] Application shutdown complete.
+[32mINFO[0m:     [26-02-2025 18:02:44] Finished server process [[36m10000[0m]

@@ -1,0 +1,20 @@
+{
+  "name": "experimento-2",
+  "version": "1.0.0",
+  "main": "dbVetorial.ts",
+  "scripts": {
+    "dev": "ts-node dbVetorial.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chromadb": "^1.10.4",
+    "chromadb-default-embed": "^2.13.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}
